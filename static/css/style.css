@@ -16,6 +16,7 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
 }
 
 .after-header .after-header-wrap a:link, .after-header .after-header-wrap a:visited {
