@@ -45,6 +45,11 @@ def en_about_us():
     return render_template("en_about_us.html")
 
 
+@app.route("/en_about_breed")
+def en_about_breed():
+    return render_template("en_about_breed.html")
+
+
 @app.route("/pl_main_page")
 def pl_main_page():
     return render_template("pl_main_page.html")
