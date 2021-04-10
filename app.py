@@ -15,6 +15,11 @@ def en_main_page():
     return render_template("en_main_page.html")
 
 
+@app.route("/news")
+def news():
+    return render_template("news.html")
+
+
 @app.route("/exhibitions")
 def exhibitions():
     return render_template("exhibitions.html")
@@ -23,11 +28,6 @@ def exhibitions():
 @app.route("/breeding_bitches")
 def breeding_bitches():
     return render_template("breeding_bitches.html")
-
-
-@app.route("/news")
-def news():
-    return render_template("news.html")
 
 
 @app.route("/pl_main_page")
