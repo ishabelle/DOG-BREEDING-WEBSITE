@@ -45,9 +45,9 @@ def pl_main_page():
     return render_template("pl_main_page.html")
 
 
-@app.route("/aktualnosci")
-def aktualnosci():
-    return render_template("aktualnosci.html")
+@app.route("/pl_news")
+def pl_news():
+    return render_template("pl_news.html")
 
 
 if __name__ == "__main__":
