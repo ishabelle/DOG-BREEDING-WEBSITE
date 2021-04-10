@@ -49,3 +49,20 @@ html {
     width: 90%;
     max-width: 1600px;
 }
+
+.breed-history {
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.references {
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 10px;
+
+}
