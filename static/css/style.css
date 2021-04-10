@@ -29,3 +29,22 @@ html {
 .after-header .after-header-wrap a:hover {
     color: #2c5151;
 }
+
+.header {
+    padding: 5px 0 0 0;
+    margin: 0;
+    color: #000000;
+    background: #0b0c10 url("background-logo.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.header-logo-wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1600px;
+}
