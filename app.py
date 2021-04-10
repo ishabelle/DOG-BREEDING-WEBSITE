@@ -7,7 +7,7 @@ app.secret_key = (os.urandom(16))
 
 @app.route("/")
 def index_page():
-    return render_template("main_page.html")
+    return render_template("index_page.html")
 
 
 @app.route("/en_main_page")
@@ -15,29 +15,29 @@ def en_main_page():
     return render_template("en_main_page.html")
 
 
-@app.route("/news")
-def news():
-    return render_template("news.html")
+@app.route("/en_news")
+def en_news():
+    return render_template("en_news.html")
 
 
-@app.route("/exhibitions")
-def exhibitions():
-    return render_template("exhibitions.html")
+@app.route("/en_exhibitions")
+def en_exhibitions():
+    return render_template("en_exhibitions.html")
 
 
-@app.route("/breeding_bitches")
-def breeding_bitches():
-    return render_template("breeding_bitches.html")
+@app.route("/en_breeding_bitches")
+def en_breeding_bitches():
+    return render_template("en_breeding_bitches.html")
 
 
-@app.route("/litters")
-def litters():
-    return render_template("litters.html")
+@app.route("/en_litters")
+def en_litters():
+    return render_template("en_litters.html")
 
 
-@app.route("/contact")
-def contact():
-    return render_template("contact.html")
+@app.route("/en_contact")
+def en_contact():
+    return render_template("en_contact.html")
 
 
 @app.route("/pl_main_page")
