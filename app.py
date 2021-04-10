@@ -10,6 +10,16 @@ def index_page():
     return render_template("main_page.html")
 
 
+@app.route("/en_main_page")
+def en_main_page():
+    return render_template("en_main_page.html")
+
+
+@app.route("/pl_main_page")
+def pl_main_page():
+    return render_template("pl_main_page.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
