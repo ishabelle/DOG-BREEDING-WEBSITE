@@ -88,3 +88,15 @@ html {
 .h4-titles {
     margin-left: 50px;
 }
+
+.StickyMenu {
+    position: fixed;
+    right: 25px;
+    top: 250px;
+    width: 300px;
+    background-color: #aeaeae;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+
+}
