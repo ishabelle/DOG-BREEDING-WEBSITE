@@ -80,6 +80,16 @@ def pl_contact():
     return render_template("pl_contact.html")
 
 
+@app.route("/pl_about_us")
+def pl_about_us():
+    return render_template("pl_about_us.html")
+
+
+@app.route("/pl_about_breed")
+def pl_about_breed():
+    return render_template("pl_about_breed.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
