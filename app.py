@@ -55,6 +55,11 @@ def pl_exhibitions():
     return render_template("pl_exhibitions.html")
 
 
+@app.route("/pl_breeding_bitches")
+def pl_breeding_bitches():
+    return render_template("pl_breeding_bitches.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
