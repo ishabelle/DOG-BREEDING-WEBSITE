@@ -35,6 +35,11 @@ def litters():
     return render_template("litters.html")
 
 
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+
 @app.route("/pl_main_page")
 def pl_main_page():
     return render_template("pl_main_page.html")
