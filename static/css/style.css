@@ -51,18 +51,40 @@ html {
 }
 
 .breed-history {
-    width: 600px;
-    height: 200px;
+    width: 700px;
     margin-left: 50px;
     text-align: justify;
 }
 
 .references {
-    width: 600px;
-    height: 200px;
+    width: 700px;
     margin-left: 50px;
+    margin-top: 100px;
     text-align: justify;
     font-style: italic;
     font-size: 10px;
 
+}
+
+.main-characteristic {
+    width: 700px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.warring {
+    color: red;
+    font-weight: bold;
+}
+
+.h2-titles {
+    margin-left: 50px;
+}
+
+.h3-titles {
+    margin-left: 50px;
+}
+
+.h4-titles {
+    margin-left: 50px;
 }
