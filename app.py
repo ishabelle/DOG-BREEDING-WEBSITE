@@ -30,6 +30,11 @@ def breeding_bitches():
     return render_template("breeding_bitches.html")
 
 
+@app.route("/litters")
+def litters():
+    return render_template("litters.html")
+
+
 @app.route("/pl_main_page")
 def pl_main_page():
     return render_template("pl_main_page.html")
