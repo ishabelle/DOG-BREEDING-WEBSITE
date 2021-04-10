@@ -60,6 +60,11 @@ def pl_breeding_bitches():
     return render_template("pl_breeding_bitches.html")
 
 
+@app.route("/pl_litters")
+def pl_litters():
+    return render_template("pl_litters.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
