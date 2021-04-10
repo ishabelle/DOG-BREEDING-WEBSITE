@@ -65,6 +65,11 @@ def pl_litters():
     return render_template("pl_litters.html")
 
 
+@app.route("/pl_contact")
+def pl_contact():
+    return render_template("pl_contact.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
