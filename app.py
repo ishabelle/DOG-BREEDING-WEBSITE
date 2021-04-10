@@ -40,6 +40,11 @@ def en_contact():
     return render_template("en_contact.html")
 
 
+@app.route("/en_about_us")
+def en_about_us():
+    return render_template("en_about_us.html")
+
+
 @app.route("/pl_main_page")
 def pl_main_page():
     return render_template("pl_main_page.html")
