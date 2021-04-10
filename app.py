@@ -45,6 +45,11 @@ def pl_main_page():
     return render_template("pl_main_page.html")
 
 
+@app.route("/aktualnosci")
+def aktualnosci():
+    return render_template("aktualnosci.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
