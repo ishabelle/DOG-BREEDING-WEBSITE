@@ -178,3 +178,17 @@ body {
     color: #000000;
 }
 
+.btn {
+    background-color: #212228;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: Arial Narrow, monospace;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8e8e8e;
+}
