@@ -115,6 +115,11 @@ def en_litter_m():
     return render_template("en_litter_m.html")
 
 
+@app.route("/en_litter_n")
+def en_litter_n():
+    return render_template("en_litter_n.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
