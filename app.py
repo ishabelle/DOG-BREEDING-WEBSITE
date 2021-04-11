@@ -4,10 +4,15 @@ import os
 app = Flask(__name__)
 app.secret_key = (os.urandom(16))
 
+# INDEX PAGE
+
 
 @app.route("/")
 def index_page():
     return render_template("index_page.html")
+
+
+# EN MAIN PAGE
 
 
 @app.route("/en_main_page")
@@ -50,6 +55,9 @@ def en_about_breed():
     return render_template("en_about_breed.html")
 
 
+# PL MAIN PAGE
+
+
 @app.route("/pl_main_page")
 def pl_main_page():
     return render_template("pl_main_page.html")
@@ -88,6 +96,13 @@ def pl_about_us():
 @app.route("/pl_about_breed")
 def pl_about_breed():
     return render_template("pl_about_breed.html")
+
+# LITTERS
+
+
+@app.route("/litter_b")
+def litter_b():
+    return render_template("litter_b.html")
 
 
 if __name__ == "__main__":
