@@ -2,6 +2,10 @@ html {
     font-family: Arial Narrow, sans-serif;
 }
 
+.center {
+    text-align: -webkit-center;
+}
+
 body {
     width: 100%;
     margin: auto;
@@ -99,10 +103,11 @@ body {
     margin-left: 50px;
 }
 
-.StickyMenu {
-    border-style: solid;
+.vitalStat {
+    border-style: dashed;
+    border-color: #bbbbbb;
     border-radius: 10px;
-    width: 45%;
+    width: 600px;
     height: 200px;
 }
 
@@ -151,3 +156,25 @@ body {
 .flagStyle-2 {
     margin: 25px;
 }
+
+/*LITTERS TABLE*/
+
+.littersTable {
+    border: dashed;
+    border-color: #bbbbbb;
+    border-radius: 10px;
+
+}
+
+.littersCell {
+    padding: 25px;
+}
+
+.littersCell a:link, a:visited {
+    text-decoration: none;
+    display: block;
+    padding: 10px 50px;
+    margin: 0;
+    color: #000000;
+}
+
