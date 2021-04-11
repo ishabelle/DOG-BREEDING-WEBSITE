@@ -179,7 +179,7 @@ body {
 }
 
 .btn {
-    background-color: #212228;
+    background-color: #8e8e8e;
     border-radius: 2px;
     border: none;
     color: white;
@@ -190,5 +190,5 @@ body {
 }
 
 .btn:hover {
-    background-color: #8e8e8e;
+    background-color: #212228;
 }
