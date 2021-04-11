@@ -97,22 +97,22 @@ def pl_about_us():
 def pl_about_breed():
     return render_template("pl_about_breed.html")
 
-# LITTERS
+# EN LITTERS
 
 
-@app.route("/litter_b")
-def litter_b():
-    return render_template("litter_b.html")
+@app.route("/en_litter_b")
+def en_litter_b():
+    return render_template("en_litter_b.html")
 
 
-@app.route("/litter_a")
-def litter_a():
-    return render_template("litter_a.html")
+@app.route("/en_litter_a")
+def en_litter_a():
+    return render_template("en_litter_a.html")
 
 
-@app.route("/litter_m")
-def litter_m():
-    return render_template("litter_m.html")
+@app.route("/en_litter_m")
+def en_litter_m():
+    return render_template("en_litter_m.html")
 
 
 if __name__ == "__main__":
