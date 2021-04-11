@@ -132,6 +132,11 @@ def en_salma():
     return render_template("en_salma.html")
 
 
+@app.route("/en_zoja")
+def en_zoja():
+    return render_template("en_zoja.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
