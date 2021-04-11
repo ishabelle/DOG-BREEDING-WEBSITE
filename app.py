@@ -105,6 +105,11 @@ def litter_b():
     return render_template("litter_b.html")
 
 
+@app.route("/litter_a")
+def litter_a():
+    return render_template("litter_a.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
