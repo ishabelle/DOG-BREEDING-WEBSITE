@@ -125,3 +125,29 @@ body {
     float: left;
     width: 25%;
 }
+
+/*INDEX PAGE*/
+
+.centerIndex {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.flagStyle {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flagStyle-2 {
+    margin: 25px;
+}
