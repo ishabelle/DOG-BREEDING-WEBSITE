@@ -9,20 +9,30 @@
     <link rel="stylesheet" type="text/css" href="/static/css/style.css">
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/images" type="image">
     <title>DWIE SKAŁY - CANE CORSO KENNEL</title>
 </head>
 <body>
 {% block content %}
 
-<h1>DWIE SKAŁY</h1>
-<h1>CANE CORSO KENNEL</h1>
-<form action="/pl_main_page">
-    <a href="/pl_main_page"><i class="em em-flag-pl" aria-role="presentation" aria-label="Poland Flag"></i></a>
-</form>
-<br>
-<form action="/en_main_page">
-     <a href="/en_main_page"><i class="em em-gb" aria-role="presentation" aria-label="United Kingdom Flag"></i></a>
-</form>
+<div class="centerIndex">
+    <img src="/static/images/logo-dwie-skaly.jpg" alt="logo">
+    <!--    <h1>DWIE SKAŁY</h1>-->
+    <!--    <h1>CANE CORSO KENNEL</h1>-->
+    <div class="flagStyle">
+        <div class="flagStyle-2">
+            <form action="/pl_main_page">
+                <a href="/pl_main_page"><i class="em em-flag-pl" aria-role="presentation" aria-label="Poland Flag"></i></a>
+            </form>
+        </div>
+        <div class="flagStyle-2">
+            <form action="/en_main_page">
+                <a href="/en_main_page"><i class="em em-gb" aria-role="presentation"
+                                           aria-label="United Kingdom Flag"></i></a>
+            </form>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
 </body>
