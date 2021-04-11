@@ -125,6 +125,13 @@ def en_litter_j():
     return render_template("en_litter_j.html")
 
 
+# EN BREEDING BITCHES
+
+@app.route("/en_salma")
+def en_salma():
+    return render_template("en_salma.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
