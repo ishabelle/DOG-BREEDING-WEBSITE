@@ -137,6 +137,11 @@ def en_zoja():
     return render_template("en_zoja.html")
 
 
+@app.route("/en_jaga")
+def en_jaga():
+    return render_template("en_jaga.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
