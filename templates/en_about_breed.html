@@ -1,38 +1,37 @@
 {% extends "en_layout.html" %}
 
 {% block content %}
-
-<h1>ABOUT BREED</h1>
+<br>
+<br>
+<br>
+<h1 class="h1-titles">ABOUT BREED</h1>
 
 <!--STATISTIC-->
-<div class="vitalStat">
-    <h2>VITAL STATS:</h2>
-    <div class="dogBreedGroup">
-        <h4>DOG BREED GROUP</h4>
-        <p>working dogs</p>
-
+<div class="container-fluid">
+    <h2>VITAL STATS</h2>
+    <div class="table-responsive">
+        <table class="table w-50">
+            <thead class="navbar-dark">
+            <th>DOG BREED GROUP</th>
+            <th>LIFE SPAN</th>
+            <th>HEIGHT</th>
+            <th>WEIGHT</th>
+            </thead>
+            <tbody>
+            <td>working dogs</td>
+            <td>10 to 12 years</td>
+            <td>dogs 62-70 cm <br>bitches 58-66 cm</td>
+            <td>dogs 45-50 kg <br>bitches 40-45 kg</td>
+            </tbody>
+        </table>
     </div>
-    <div class="lifeSpan">
-        <h4>LIFE SPAN</h4>
-        <p>10 to 12 years</p>
     </div>
-    <div class="dogHeight">
-        <h4>HEIGHT</h4>
-        <p>Dogs 62–70 cm</p>
-        <p>Bitches 58–66 cm</p>
-    </div>
-    <div class="dogWeight">
-        <h4>WEIGHT</h4>
-        <p>Dogs 45–50 kg</p>
-        <p>Bitches 40–45 kg</p>
-    </div>
-</div>
 
 <!--HISTORY ABOUT BREED-->
 <br>
 
 <h2 class="h2-titles">HISTORY</h2>
-<div class="breed-history">
+<div class="w-50 p-3 text-justify">
     <p>
         According to the breed standard of the Fédération Cynologique Internationale (FCI - International Canine
         Federation), the Cane Corso descends from the
@@ -59,8 +58,8 @@
 
 <!--MAIN FEATURES-->
 <h2 class="h2-titles">MAIN CHARACTERISTICS OF CANE CORSO</h2>
-<h3 class="h3-titles">If you're considering Cane Corso, You should be concerned about:</h3>
-<div class="main-characteristic">
+<h3 class="warring h3-titles">If you're considering Cane Corso,<br> You should be concerned about:</h3>
+<div class="w-50 p-3 text-justify">
     <h3>1. YOU SHOULD PROVIDE PROPER BALANCE OF EXERCISE</h3>
     <p>
         Young Cane Corso need enough exercise to keep them lean and healthy, but not so much that their soft
@@ -239,7 +238,7 @@
     </p>
 </div>
 
-<div class="references">
+<div class="w-50 references">
     <p>REFERENCES</p>
     <p>FCI breeds nomenclature: Cane Corso Italiano (343). Fédération Cynologique Internationale. Accessed July
         2020</p>
