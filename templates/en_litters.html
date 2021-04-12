@@ -3,31 +3,67 @@
 {% block content %}
 
 <h1>LITTERS</h1>
-<div>
-    <table class="littersTable">
+<div class="table-responsive">
+    <table class="table-responsive-stack">
         <tr>
-            <td class="littersCell"><a href="en_litter_a">
-                <h3>LITTER A</h3>
-                <img src="/static/images/litters/a/pres.jpg" width="350" height="265"></a>
+
+            <td class="littersCell">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/j/pres.jpg" width="350"
+                         height="265">
+                    <div class="overlay">
+                        <h2>LITTER J</h2>
+                        <a class="info" href="en_litter_j">SEE MORE</a>
+                    </div>
+                </div>
             </td>
-            <td class="littersCell"><a href="en_litter_m">
-                <h3>LITTER M</h3>
-                <img src="/static/images/litters/m/pres.jpg" width="350" height="265"></a></td>
-            <td class="littersCell"><a href="en_litter_n">
-                <h3>LITTER N</h3>
-                <img src="/static/images/litters/n/pres.jpg" width="350" height="265"></a></td>
+
+            <td class="littersCell">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/m/pres.jpg" width="350" height="265">
+                    <div class="overlay">
+                        <h2>LITTER M</h2>
+                        <a class="info" href="en_litter_m">SEE MORE</a>
+                    </div>
+                </div>
+            </td>
+
+            <td class="littersCell">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/b/pres.jpg" width="350" height="265">
+                    <div class="overlay">
+                        <h2>LITTER B</h2>
+                        <a class="info" href="en_litter_b">SEE MORE</a>
+                    </div>
+                </div>
+            </td>
+
         </tr>
+
         <tr>
-            <td class="littersCell"><a href="en_litter_b">
-                <h3>LITTER B</h3>
-                <img src="/static/images/litters/b/pres.jpg" width="265" height="350"></a>
+
+            <td class="littersCell">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/a/pres.jpg" width="350" height="265">
+                    <div class="overlay">
+                        <h2>LITTER A</h2>
+                        <a class="info" href="en_litter_a">SEE MORE</a>
+                    </div>
+                </div>
             </td>
-            <td class="littersCell"><a href="en_litter_j">
-                <h3>LITTER J</h3>
-                <img src="/static/images/litters/j/pres.jpg" width="265" height="350"></a>
+
+            <td class="littersCell">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/pres.jpg" width="350" height="265">
+                    <div class="overlay">
+                        <h2>LITTER N</h2>
+                        <a class="info" href="en_litter_n">SEE MORE</a>
+                    </div>
+                </div>
             </td>
+
         </tr>
     </table>
-
 </div>
+
 {% endblock %}
