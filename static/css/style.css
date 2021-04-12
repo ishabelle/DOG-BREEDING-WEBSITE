@@ -157,7 +157,21 @@ body {
     margin: 25px;
 }
 
-/*LITTERS TABLE*/
+/* FOOTER */
+
+.footer {
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #0b0c10;
+    color: white;
+    text-align: center;
+}
+
+/* LITTERS TABLE */
 
 .littersTable {
     border: dashed;
@@ -192,3 +206,4 @@ body {
 .btn:hover {
     background-color: #212228;
 }
+
