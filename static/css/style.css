@@ -91,16 +91,17 @@ body {
 }
 
 .h1-titles {
-    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0 0 #4074b5, 0 2px 0 #4074b5, -2px 0 0 #4074b5, 0 -2px 0 #4074b5, 1px 1px 1px rgba(206, 89, 55, 0);
-    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #343a40, 2px -2px 0 #343a40, -2px 2px 0 #343a40, -2px -2px 0 #343a40, 2px 0 0 #343a40, 0 2px 0 #343a40, -2px 0 0 #343a40, 0 -2px 0 #343a40, 1px 1px 1px rgba(206, 89, 55, 0);
+    color: #eceaea;
     background: #FFFFFF;
     font-size: 45px;
 }
 
+.h2-titles {
+    color: #343a40;
+}
 
-/*.h3-titles {*/
-/*    margin-left: 50px;*/
-/*}*/
+
 
 /*.h4-titles {*/
 /*    margin-left: 50px;*/
