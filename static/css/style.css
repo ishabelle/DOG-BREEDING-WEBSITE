@@ -102,7 +102,6 @@ body {
 }
 
 
-
 /*.h4-titles {*/
 /*    margin-left: 50px;*/
 /*}*/
@@ -338,8 +337,12 @@ body {
     .table-responsive-stack td {
         float: left \9;
         width: 100%;
-
     }
 }
 
-/* LOGO */
+/* CAROUSEL */
+
+ .carousel-inner img {
+    width: 960px;
+    height: 720px;
+  }
