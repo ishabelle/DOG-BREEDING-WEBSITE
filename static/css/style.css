@@ -163,7 +163,7 @@ body {
 
 
 footer {
-position: fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: auto;
@@ -427,5 +427,55 @@ position: fixed;
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
+    }
+}
+
+/* MAIN TITLE */
+
+body.mainLogo {
+    font: 400 1em/1.5 "Neuton";
+    text-align: center;
+    margin: 0
+}
+
+p.logo {
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+span {
+    font: 80px "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 10px 10px;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px #9a9a9a;
+
+    /* Clip Background Image */
+
+    background: url(/static/images/1a.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Animate Background Image */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 10s linear infinite;
+
+    /* Activate hardware acceleration for smoother animations */
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
     }
 }
