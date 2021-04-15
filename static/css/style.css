@@ -161,12 +161,15 @@ body {
 /* FOOTER */
 
 
-footer {
-    position: relative;
+.footer {
+    position: absolute;
+    right: 0;
     bottom: 0;
-    width: 100%;
-    height: auto;
-}
+    left: 0;
+    padding: 1rem;
+    }
+
+
 
 /* LITTERS TABLE */
 
