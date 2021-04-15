@@ -479,4 +479,18 @@ span.logo {
     }
 }
 
-/*CONTACT FORM*/
+/* GOOGLE MAPS */
+.google-maps {
+    position: center;
+    padding-bottom: 75%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50% !important;
+    height: 50% !important;
+}
