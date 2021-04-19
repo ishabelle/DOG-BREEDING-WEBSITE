@@ -314,6 +314,12 @@ body {
     height: 550px;
 }
 
+.carousel-size {
+    width: 750px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+}
 
 /* MODAL PEDIGREE */
 /* Style the Image Used to Trigger the Modal */
