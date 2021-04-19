@@ -91,7 +91,9 @@ body {
 }
 
 .h2-titles {
-    color: #343a40;
+   text-shadow: 2px 2px 0 #343a40, 2px -2px 0 #343a40, -2px 2px 0 #343a40, -2px -2px 0 #343a40, 2px 0 0 #343a40, 0 2px 0 #343a40, -2px 0 0 #343a40, 0 -2px 0 #343a40, 1px 1px 1px rgba(206, 89, 55, 0);
+    color: #eceaea;
+    font-size: 30px;
 }
 
 .vitalStat {
