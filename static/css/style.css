@@ -482,15 +482,10 @@ span.logo {
 }
 
 /* QUOTES */
-body {
-    background: #eee;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-}
-
 .container {
     max-width: 700px;
     margin: 10px auto;
+
 }
 
 .quote-card {
@@ -536,7 +531,7 @@ body {
     position: absolute;
     bottom: -90px;
     line-height: 100px;
-    right: 0;
+    right: 50px;
     font-size: 25em;
     color: rgba(238, 238, 238, 0.8);
     font-weight: normal;
@@ -557,6 +552,7 @@ body {
     background-size: 100% auto;
 	background-color: #f1f1f1;
 }
+
 .publicaciones-blog-home h2 {
 	text-align: center;
     font-weight: 300;
