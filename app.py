@@ -125,6 +125,11 @@ def en_litter_j():
     return render_template("en_litter_j.html")
 
 
+@app.route("/en_litter_e")
+def en_litter_e():
+    return render_template("en_litter_e.html")
+
+
 # EN BREEDING BITCHES
 
 @app.route("/en_salma")
