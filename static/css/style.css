@@ -635,7 +635,7 @@ span.logo {
 }
 .mascara-enlace-blog-home {
     height: 400px;
-    width: 0%;
+    width: 0;
     color: #aaa;
     background-color: #343a40;
     position: absolute;
