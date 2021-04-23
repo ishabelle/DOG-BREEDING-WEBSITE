@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
+@import url('https://fonts.googleapis.com/css?family=Kranky');
+
 html {
     font-family: Arial Narrow, sans-serif;
     background-color: #f1f1f1;
@@ -88,18 +91,25 @@ body {
 }
 
 .h1-titles {
-    text-shadow: 2px 2px 0 #212529, 2px -2px 0 #212529, -2px 2px 0 #212529, -2px -2px 0 #212529, 2px 0 0 #212529, 0 2px 0 #212529, -2px 0 0 #212529, 0 -2px 0 #212529, 1px 1px 1px rgba(206, 89, 55, 0);
-    color: #eceaea;
-    font-size: 45px;
-    background-color: #ffffff;
-    padding-bottom: 5px;
+    font-family: Kranky, cursive;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
 }
 
 .h2-titles {
-    text-shadow: 2px 2px 0 #212529, 2px -2px 0 #212529, -2px 2px 0 #212529, -2px -2px 0 #212529, 2px 0 0 #212529, 0 2px 0 #212529, -2px 0 0 #212529, 0 -2px 0 #212529, 1px 1px 1px rgba(206, 89, 55, 0);
-    color: #eceaea;
-    font-size: 30px;
-}
+   font-family: Kranky, cursive;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+
+   }
 
 .vitalStat {
     border-style: dashed;
