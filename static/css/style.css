@@ -9,6 +9,7 @@ html {
 .center {
     text-align: -webkit-center;
     background-color: #f1f1f1;
+    font-family: Arial Narrow, sans-serif;
 }
 
 body {
@@ -97,19 +98,22 @@ body {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 10px;
-
     text-shadow: rgb(0, 0, 0) 2px 2px 2px;
 }
 
 .h2-titles {
-   font-family: Kranky, cursive;
+    font-family: Kranky, cursive;
     text-align: center;
     font-size: 35px;
     color: rgb(0, 0, 0);
-
     text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
 
-   }
+.h5-titles {
+    font-family: Kranky, cursive;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
 
 .vitalStat {
     border-style: dashed;
@@ -773,4 +777,9 @@ span.logo {
     }
 }
 
+/* LABEL IN CONTACT */
+input, textarea {
+    /*background-color: transparent;*/
+    opacity: 0.5;
+}
 
