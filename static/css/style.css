@@ -787,6 +787,8 @@ span.logo {
 input, textarea {
     /*background-color: transparent;*/
     opacity: 0.5;
+    border-color: #aaa7a7;
+    border-radius: 5px;
 }
 
 /* NAVBAR */
