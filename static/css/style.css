@@ -789,7 +789,9 @@ input, textarea {
     opacity: 0.5;
 }
 
-.nav-item {
+/* NAVBAR */
+.nav-item, .nav-item-dropdown {
     padding-left: 8px;
     padding-right: 8px;
 }
+
