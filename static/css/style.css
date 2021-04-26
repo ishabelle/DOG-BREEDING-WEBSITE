@@ -561,6 +561,9 @@ span.logo {
         font-size: 22em;
         right: -25px;
     }
+    .span {
+        font-size: 30px;
+    }
 }
 
 
