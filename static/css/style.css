@@ -790,6 +790,11 @@ input, textarea {
     opacity: 0.5;
     border-color: #aaa7a7;
     border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 200px;
 }
 
 /* NAVBAR */
@@ -798,3 +803,10 @@ input, textarea {
     padding-right: 8px;
 }
 
+/* CONTACT FORM */
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
