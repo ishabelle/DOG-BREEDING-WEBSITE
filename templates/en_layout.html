@@ -23,58 +23,62 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <title>DWIE SKAŁY - CANE CORSO KENNEL</title>
 </head>
 
+
 <body>
 
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+<nav class="navbar-expand-lg navbar-dark bg-dark" style="min-height: 80px">
     <a class="navbar-brand" href="/en_main_page"><img src="/static/images/logo-dwie-skaly-white.png" width="100"
                                                       height="50"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="text-right" style="padding: 30px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+
             <li class="nav-item">
                 <a class="nav-link" href="/en_news">NEWS</a>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="/en_exhibitions">EXHIBITIONS</a>
             </li>
 
-            <li class="nav-item">
-                <div class="btn-group">
-                    <a href="/en_breeding_bitches" class="nav-link">BREEDING BITCHES</a>
-                    <a class="nav-link dropdown-toggle dropdown-toggle-split"
-                       data-toggle="dropdown">
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-dark">
-                        <a class="dropdown-item" href="/en_salma">SALMA</a>
-                        <a class="dropdown-item" href="/en_zoja">ZOJA</a>
-                        <a class="dropdown-item" href="/en_jaga">JAGA</a>
-                    </div>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="breeding_bitches" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">BREEDING BITCHES</a>
+                <div class="dropdown-menu" aria-labelledby="breeding_bitches">
+                    <a class="dropdown-item" href="/en_salma"><b>SALMA</b></a>
+                    <a class="dropdown-item" href="/en_zoja"><b>ZOJA</b></a>
+                    <a class="dropdown-item" href="/en_jaga"><b>JAGA</b></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/en_breeding_bitches"><small>ALL BITCHES</small></a>
                 </div>
             </li>
-
-            <li class="nav-item">
-                <div class="btn-group">
-                    <a href="/en_litters" class="nav-link">LITTERS</a>
-                    <a class="nav-link dropdown-toggle dropdown-toggle-split"
-                       data-toggle="dropdown">
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-dark">
-                        <a class="dropdown-item" href="/en_litter_j">LITTER J</a>
-                        <a class="dropdown-item" href="/en_litter_m">LITTER M</a>
-                        <a class="dropdown-item" href="/en_litter_b">LITTER B</a>
-                        <a class="dropdown-item" href="/en_litter_e">LITTER E</a>
-                        <a class="dropdown-item" href="/en_litter_a">LITTER A</a>
-                        <a class="dropdown-item" href="/en_litter_n">LITTER N</a>
-                    </div>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="litters" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">LITTERS</a>
+                <div class="dropdown-menu" aria-labelledby="litters">
+                    <a class="dropdown-item" href="/en_litter_j"><b>LITTER J</b></a>
+                    <a class="dropdown-item" href="/en_litter_m"><b>LITTER M</b></a>
+                    <a class="dropdown-item" href="/en_litter_b"><b>LITTER B</b></a>
+                    <a class="dropdown-item" href="/en_litter_e"><b>LITTER E</b></a>
+                    <a class="dropdown-item" href="/en_litter_a"><b>LITTER A</b></a>
+                    <a class="dropdown-item" href="/en_litter_n"><b>LITTER N</b></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/en_litters"><small>ALL LITTERS</small></a>
                 </div>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link" href="/en_about_breed">ABOUT BREED</a>
             </li>
@@ -84,13 +88,81 @@
             <li class="nav-item">
                 <a class="nav-link" href="/en_contact">CONTACT</a>
             </li>
+            <li>
+                <a class="nav-link" href="/pl_main_page"><i class="em em-flag-pl" aria-role="presentation"
+                                                            aria-label="Poland Flag"></i></a>
+            </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <a class="nav-link" href="/pl_main_page"><i class="em em-flag-pl" aria-role="presentation"
-                                                        aria-label="Poland Flag"></i></a>
-        </form>
+
     </div>
 </nav>
+
+
+{#<nav class="navbar-expand-lg bg-dark navbar-dark" style="min-height: 80px">#}
+{##}
+{#        <a class="navbar-brand mr-auto" href="/en_main_page"><img src="/static/images/logo-dwie-skaly-white.png"#}
+{#                                                                  width="100"#}
+{#                                                                  height="50"></a>#}
+{#        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"#}
+{#                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">#}
+{#            <span class="navbar-toggler-icon"></span>#}
+{#        </button>#}
+{#        <div class="collapse navbar-collapse" id="navbarSupportedContent">#}
+{#            <ul class="navbar-nav mr-auto">#}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="/en_news">NEWS</a>#}
+{#                </li>#}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="/en_exhibitions">EXHIBITIONS</a>#}
+{#                </li>#}
+{##}
+{#                <li class="nav-item">#}
+{#                    <div class="btn-group">#}
+{#                        <a href="/en_breeding_bitches" class="nav-link">BREEDING BITCHES</a>#}
+{#                        <a class="nav-link dropdown-toggle dropdown-toggle-split"#}
+{#                           data-toggle="dropdown">#}
+{#                        </a>#}
+{#                        <div class="dropdown-menu dropdown-menu-dark">#}
+{#                            <a class="dropdown-item" href="/en_salma">SALMA</a>#}
+{#                            <a class="dropdown-item" href="/en_zoja">ZOJA</a>#}
+{#                            <a class="dropdown-item" href="/en_jaga">JAGA</a>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </li>#}
+{##}
+{#                <li class="nav-item">#}
+{#                    <div class="btn-group">#}
+{#                        <a href="/en_litters" class="nav-link">LITTERS</a>#}
+{#                        <a class="nav-link dropdown-toggle dropdown-toggle-split"#}
+{#                           data-toggle="dropdown">#}
+{#                        </a>#}
+{#                        <div class="dropdown-menu dropdown-menu-dark">#}
+{#                            <a class="dropdown-item" href="/en_litter_j">LITTER J</a>#}
+{#                            <a class="dropdown-item" href="/en_litter_m">LITTER M</a>#}
+{#                            <a class="dropdown-item" href="/en_litter_b">LITTER B</a>#}
+{#                            <a class="dropdown-item" href="/en_litter_e">LITTER E</a>#}
+{#                            <a class="dropdown-item" href="/en_litter_a">LITTER A</a>#}
+{#                            <a class="dropdown-item" href="/en_litter_n">LITTER N</a>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </li>#}
+{##}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="/en_about_breed">ABOUT BREED</a>#}
+{#                </li>#}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="/en_about_us">ABOUT US</a>#}
+{#                </li>#}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="/en_contact">CONTACT</a>#}
+{#                </li>#}
+{#            </ul>#}
+{#            <form class="form-inline my-2 my-lg-0">#}
+{#                <a class="nav-link" href="/pl_main_page"><i class="em em-flag-pl" aria-role="presentation"#}
+{#                                                            aria-label="Poland Flag"></i></a>#}
+{#            </form>#}
+{#        </div>#}
+{#    </nav>#}
 
 <div class="center">
 

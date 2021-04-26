@@ -500,7 +500,7 @@ span.logo {
 }
 
 /* QUOTES */
-.container {
+.containerQuotes {
     max-width: 700px;
     margin: 10px auto;
 
@@ -789,3 +789,7 @@ input, textarea {
     opacity: 0.5;
 }
 
+.nav-item {
+    padding-left: 8px;
+    padding-right: 8px;
+}
