@@ -819,3 +819,9 @@ input, textarea {
 .shadow-textarea textarea.form-control {
     padding-left: 0.8rem;
 }
+
+
+.importandLinks:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
