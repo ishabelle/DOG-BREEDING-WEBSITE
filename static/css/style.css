@@ -111,6 +111,13 @@ body {
     text-shadow: rgb(0, 0, 0) 2px 2px 2px;
 }
 
+.h4-titles {
+    font-family: Kranky, cursive;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
 .h5-titles {
     font-family: Kranky, cursive;
     font-size: 20px;
