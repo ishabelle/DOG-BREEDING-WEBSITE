@@ -75,10 +75,8 @@ body {
 }
 
 .references {
-
     margin-top: 10px;
     margin-left: 50px;
-    text-align: justify;
     font-style: italic;
     font-size: 10px;
 }
@@ -570,7 +568,7 @@ span.logo {
         font-size: 22em;
         right: -25px;
     }
-  }
+}
 
 
 /* NEWS */
@@ -816,6 +814,7 @@ input, textarea {
 .shadow-textarea textarea.form-control::placeholder {
     font-weight: 300;
 }
+
 .shadow-textarea textarea.form-control {
     padding-left: 0.8rem;
 }
