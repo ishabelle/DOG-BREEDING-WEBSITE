@@ -2,60 +2,130 @@
 
 {% block content %}
     <br>
+    <h1 class="h1-titles">LITTER N</h1>
 
+    <!-- INTRODUCTION -->
+    <div class="table-responsive">
+        <table class="table-responsive-stack">
+            <tr style="height:auto; background-color: white">
+                <td class="littersCell" style="height: 260px">
+                    <div class="text-center">
+                        <br>
+                        <p>D.O.B - <strong>10.02.2013</strong></p>
+                        <p>o: <strong>EKSTERMINATOR Del-Orte </strong>
+                            <br>
+                            (BACARA X UMBRA Del-Orte</p>
+                        <p>HD-B tests 5/5</p>
+                        <p>m: <strong>EKSTAZA Del-Orte</strong>
+                            <br>
+                            (TYSON x OMEGA BLUE Del-Orte M.L)</p>
+                        <p>HD-A tests 5/5</p>
+                    </div>
+                </td>
+
+                <!-- PRES -->
+                <td class="littersCell" style="height: 350px">
+                    <div class="hoverEffect">
+                        <img class="img-responsive img-thumbnail"
+                             src="/static/images/litters/n/pres.jpg"
+                             width="350" height="265">
+                        <div class="overlay" style="height: 95%">
+                            <h2>PRESENTATION</h2>
+                            <a class="info btn  btn-dark btn-sm" href="#pres" data-target="#pres"
+                               data-toggle="modal">SEE MORE</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- PREVIOUS BUTTON -->
+    <br>
     <form action="en_litters">
-        <button class="btn btn-outline-dark btn-sm">PREVIOUS PAGE</button>
+        <button class="btn btn-dark btn-sm">PREVIOUS PAGE</button>
     </form>
     <br>
-    <div class="table-responsive">
-        <table class="table-responsive-stack">
-            <tr>
-                <td class="littersCell">
-                    <div class="text-center">
-                        <h1>LITTER N</h1>
-                        <p>D.O.B - <strong>10.02.2013</strong></p>
-                        <p>o: <strong>EKSTERMINATOR Del-Orte </strong></p>
-                        <p></p>
-                        <p>m: <strong>EKSTAZA Del-Orte</strong></p>
-                        <p></p>
-                    </div>
-                </td>
-                <td>
-                    <img class="img-responsive img-thumbnail" id="myImg"
-                         src="/static/images/litters/n/pres.jpg" alt=""
-                         style="width:100%;max-width:350px">
-                    <div id="myModal" class="modal">
-                        <span class="close">&times;</span>
-                        <img class="modal-content" id="img01">
-                        <div id="caption"></div>
-                    </div>
-                </td>
-            </tr>
-        </table>
+
+    <!-- CAROUSEL -->
+    <div style="max-width: 750px">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+                <li data-target="#demo" data-slide-to="5"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/1.jpg"
+                         style="width: 100%; height: 100%">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/2.jpg"
+                         style="width: 100%; height: 100%">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/3.jpg"
+                         style="width: 100%; height: 100%">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/4.jpg"
+                         style="width: 100%; height: 100%">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/5.jpg"
+                         style="width: 100%; height: 100%">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/6.jpg"
+                         style="width: 100%; height: 100%">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
     </div>
 
-
-    <br>
-
-    <div class="table-responsive">
-        <table class="table-responsive-stack">
-            <tr>
-                <td class="littersCell">
-                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/1.jpg" width="350"
-                         height="265">
-                </td>
-                <td class="littersCell">
-                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/2.jpg" width="350"
-                         height="265">
-                </td>
-                <td class="littersCell">
-                    <img class="img-responsive img-thumbnail" src="/static/images/litters/n/3.jpg" width="350"
-                         height="265">
-                </td>
-            </tr>
-        </table>
+    <!-- MODAL PRESENTATION -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+         aria-labelledby="myLargeModalLabel"
+         aria-hidden="true" id="pres">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLongTitle"><strong>PRESENTATION OF LITTER A</strong></h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <img class="img-responsive img-thumbnail"
+                             src="/static/images/litters/n/pres-temp.jpg"
+                             style="width: 100%; height: 100%">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p></p>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!-- FOOTER -->
     <footer>
         <br>
         <h1 class="h1-titles"><br></h1>
