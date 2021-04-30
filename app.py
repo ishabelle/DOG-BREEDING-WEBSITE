@@ -147,6 +147,13 @@ def en_jaga():
     return render_template("en_jaga.html")
 
 
+# ADDITIONAL
+
+@app.route("/en_working_cane_corso")
+def en_working_cane_corso():
+    return render_template("en_working_cane_corso.html")
+
+
 if __name__ == "__main__":
     app.debug = True
     PORT = process.env.PORT | '8080'
