@@ -58,12 +58,97 @@
             </div>
 
             <!-- BREED PREDISPOSITION -->
-            <div class="col-sm-offset-0 col-sm-4" style="background-color: white">
-                <h4 class="h4-titles">BREED PREDISPOSITION</h4>
+            <div class="col-sm-4" style="background-color: white">
+                <h4 class="h4-titles" style="text-align: center">BREED PREDISPOSITION</h4>
 
+                <!-- ADAPTABILITY -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <a type="button" class="info" data-toggle="modal" data-target="#adapt">
+                                <h5><i class="fa fa-plus-square" style="color: #8e8e8e"></i> ADAPTABILITY</h5>
+                            </a>
+                        </div>
+                        <div class="col-6 text-right">
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                        </div>
+                    </div>
 
+                </div>
+
+                <!-- ADAPTABILITY-MODAL -->
+                <div class="modal fade" tabindex="-1" role="dialog"
+                     aria-labelledby="myLargeModalLabel"
+                     aria-hidden="true" id="adapt">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="h4-titles modal-title" id="exampleModalLongTitle">ADAPTABILITY</h4>
+                                <div class="col-6 text-right">
+                                    <i class="fa fa-paw"> </i>
+                                    <i class="fa fa-paw"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div style="max-width: 500px">
+                                    <div class="row">
+                                        <div class="col-6 text-left">Good for novice owners</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Tolerates being alone</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Adapts well to apartment living</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Sensitivity Level</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
         <br>
 
@@ -204,4 +289,5 @@
         <br>
         <br>
     </footer>
+
 {% endblock %}
