@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
 @import url('https://fonts.googleapis.com/css?family=Kranky');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap');
 
 html {
     font-family: Arial Narrow, sans-serif;
@@ -92,35 +94,36 @@ body {
 }
 
 .h1-titles {
-    font-family: Kranky, cursive;
+    font-family: 'Fredericka the Great', cursive;
+
     text-align: center;
     font-size: 35px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    /*text-shadow: rgb(0, 0, 0) 2px 2px 2px;*/
 }
 
 .h2-titles {
-    font-family: Kranky, cursive;
+    font-family: 'Fredericka the Great', cursive;
     text-align: center;
     font-size: 35px;
     color: rgb(0, 0, 0);
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    /*text-shadow: rgb(0, 0, 0) 2px 2px 2px;*/
 }
 
 .h4-titles {
-    font-family: Kranky, cursive;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 25px;
     color: rgb(0, 0, 0);
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    /*text-shadow: rgb(0, 0, 0) 2px 2px 2px;*/
 }
 
 .h5-titles {
-    font-family: Kranky, cursive;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    /*text-shadow: rgb(0, 0, 0) 2px 2px 2px;*/
 }
 
 .vitalStat {
