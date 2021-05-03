@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kranky');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
 
 html {
     font-family: Arial Narrow, sans-serif;
@@ -589,6 +590,10 @@ span.logo {
     }
 }
 
+.p-signature {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 25px;
+}
 
 /* NEWS */
 .publicaciones-blog-home {
