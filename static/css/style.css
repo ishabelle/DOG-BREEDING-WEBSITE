@@ -134,6 +134,13 @@ body {
     /*text-shadow: rgb(0, 0, 0) 2px 2px 2px;*/
 }
 
+.h6-titles {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    /*text-shadow: rgb(0, 0, 0) 2px 2px 2px;*/
+}
+
 .vitalStat {
     border-style: dashed;
     border-color: #bbbbbb;
