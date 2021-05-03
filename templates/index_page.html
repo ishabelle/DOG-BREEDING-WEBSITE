@@ -13,25 +13,36 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>DWIE SKAŁY - CANE CORSO KENNEL</title>
 </head>
+
 <body>
+
 {% block content %}
 
-<div class="centerIndex">
-    <img src="/static/images/logo-dwie-skaly.png" alt="logo" width="448" height="275">
-    <div class="flagStyle">
-        <div class="flagStyle-2">
-{#            <form action="/pl_main_page">#}
-{#                <a href="/pl_main_page"><i class="em em-flag-pl" aria-role="presentation" aria-label="Poland Flag"></i></a>#}
-{#            </form>#}
-        </div>
-        <div class="flagStyle-2">
-            <form action="/en_main_page">
-                <a href="/en_main_page"><i class="em em-gb" aria-role="presentation"
-                                           aria-label="United Kingdom Flag"></i></a>
-            </form>
+
+    <div class="centerIndex">
+
+        <!-- LOGO -->
+        <img src="/static/images/logo-dwie-skaly.png" alt="logo" width="448" height="275">
+        <div class="flagStyle">
+
+            <!-- PL FLAG -->
+            <div class="flagStyle-2">
+                {#            <form action="/pl_main_page">#}
+                {#                <a href="/pl_main_page"><i class="em em-flag-pl" aria-role="presentation" aria-label="Poland Flag"></i></a>#}
+                {#            </form>#}
+            </div>
+
+            <!-- ENG FLAG -->
+            <div class="flagStyle-2">
+                <form action="/en_main_page">
+                    <a href="/en_main_page"><i class="em em-gb" aria-role="presentation"
+                                               aria-label="United Kingdom Flag"></i></a>
+                </form>
+
+            </div>
         </div>
     </div>
-</div>
 
 {% endblock %}
+
 </body>
