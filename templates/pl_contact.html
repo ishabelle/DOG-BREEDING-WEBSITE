@@ -1,7 +1,160 @@
 {% extends "pl_layout.html" %}
 
 {% block content %}
+    <br>
+    <h1 class="h1-titles text-center">KONTAKT</h1>
+    <!-- BODY -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-4 text-left">
+                                <form action="https://submit-form.com/3TlcJIZD">
+                                    <div class="form-group row">
 
-<h1>KONTAKT</h1>
+                                        <!-- CONTACT FORM -->
+                                        <div class="col-md-12">
+                                            <h5 class="h5-titles text-left">Masz pytania?
+                                                <br>NAPISZ DO NAS!
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <!-- NAME -->
+                                    <div class="form-group row">
+                                        <div class="form-group shadow-textarea">
+                                            <label for="name">
+                                                Twoje imię:<br></label>
+                                            <textarea class="form-control z-depth-1" id="name"
+                                                      rows="1" placeholder="Wpisz imię tutaj..."></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- EMAIL -->
+                                    <div class="form-group row">
+                                        <div class="form-group shadow-textarea">
+                                            <label for="email">
+                                                Twój e-mail:<br></label>
+                                            <textarea class="form-control z-depth-1" id="email"
+                                                      rows="1" placeholder="Wpisz e-mail tutaj..."></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- MESSAGE -->
+                                    <div class="form-group row">
+                                        <div class="form-group shadow-textarea">
+                                            <label for="message">Twoja wiadomość:<br></label>
+                                            <textarea class="form-control z-depth-1" id="message"
+                                                      rows="3" placeholder="Napisz coś tutaj..."></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- BUTTON 'SEND' -->
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <button class="btn btn-dark btn-sm">WYŚLIJ!</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- EMPTY COLUMN -->
+                            <div class="col-md-4">
+                            </div>
+
+                            <!-- ADDITIONAL INFO -->
+                            <div class="col-md-4 text-right">
+                                <div class="form-group-row">
+                                    <div class="col-md-12">
+                                        <h5 class="h5-titles text-right">Poznaj Nas tutaj:</h5>
+                                    </div>
+                                </div>
+
+                                <!-- FACEBOOK / INSTAGRAM -->
+                                <div class="form-group-row">
+                                    <div class="col-md-12">
+                                        <a href="https://www.facebook.com/dwieskalyfci"
+                                           class="btn btn-dark btn-lg" target="_blank"><span
+                                                class="fa fa-2x fa-facebook"></span></a>
+                                        <a> </a>
+                                        <a href="https://www.instagram.com/explore/locations/1711412579097979/cane-corso-hodowla-dwie-skay-fci?hl=pl"
+                                           class="btn btn-dark btn-lg" target="_blank"><span
+                                                class="fa fa-2x fa-instagram"></span></a>
+                                    </div>
+                                </div>
+
+                                <!-- GOOGLE MAP -->
+                                <div class="form-group-row">
+                                    <div class="col-md-12">
+                                        <div style="width: 100%">
+                                            <br>
+                                            <iframe width="100%" height="180px" frameborder="0" scrolling="no"
+                                                    marginheight="0" marginwidth="0"
+                                                    src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=pl&amp;q=janopole%2025g+(Nazwa%20mojej%20firmy)&amp;t=k&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+
+                                <!-- ADRESS / KOM / EMAIL -->
+                                <div class="form-group-row">
+                                    <div class="col-md-12">
+                                        <h4>POLSKA</h4>
+                                        <p>Janopole 25G
+                                            <br>
+                                            09-120 Nowe Miasto</p>
+                                        <p><a href="tel://+48 606 941 770" class="tel-mail"><i
+                                                class="fa fa-2x fa-phone"></i> +48 606 941 770</a></p>
+                                        <p><a href="mailto:adriaszek@gmail.com" class="tel-mail"><i
+                                                class="fa fa-2x fa-envelope"></i> adriaszek@gmail.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- STYLES -->
+    <style>
+
+        .container {
+            background: url("/static/images/info/contact-1a.png");
+            min-width: 25em;
+            max-width: 800px;
+            position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        hr {
+            border: 1px solid #343a40;
+        }
+
+        .col-md-8 > button {
+            display: block;
+            margin: auto;
+        }
+
+        .social > a {
+            width: 100%;
+        }
+    </style>
+
+    <!-- FOOTER -->
+    <footer>
+        <br>
+        <h1 class="h1-titles"><br></h1>
+        <br>
+        <br>
+    </footer>
+
 
 {% endblock %}
+
