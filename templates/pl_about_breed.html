@@ -1,7 +1,1122 @@
 {% extends "pl_layout.html" %}
 
 {% block content %}
+    <br>
+    <h1 class="h1-titles">O RASIE CANE CORSO</h1>
 
-<h1>O RASIE</h1>
+    <div class="container">
+        <!-- BODY-1 -->
+        <div class="row">
+            <!-- STATIC -->
+            <div class="col-sm-4" style="background-color: white">
+                <div>
+                    <h4 class="h4-titles">STATYSTYKI</h4>
+                    <br>
+                    <div class="table-responsive">
+                        <table class="table text-center">
+                            <thead>
+                            <th style="border-color: #9a9a9a">
+                                <img class="mx-auto d-block" src="/static/images/info/icon-dog.png">
+                            </th>
+                            <th style="border-color: #9a9a9a">
+                                <img class="mx-auto d-block" src="/static/images/info/icon-heart-frequency.png">
+                            </th>
+                            <th style="border-color: #9a9a9a">
+                                <img class="mx-auto d-block" src="/static/images/info/icon-tape-measure.png">
+                            </th>
+                            <th style="border-color: #9a9a9a">
+                                <img class="mx-auto d-block" src="/static/images/info/icon-weighing-machine.png">
+                            </th>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>GRUPA</td>
+                                <td>DŁUGOŚĆ ŻYCIA<br>(lata)</td>
+                                <td>WZROST<br>(cm)</td>
+                                <td>WAGA<br>(kg)</td>
+                            </tr>
+                            <tr>
+                                <td>psy pracujące</td>
+                                <td>10 - 12</td>
+                                <td><i class="fa fa-mars"></i> 62 - 70<br><i class="fa fa-venus"></i> 58 - 66</td>
+                                <td><i class="fa fa-mars"></i> 45 - 50<br><i class="fa fa-venus"></i> 40 - 45</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHOTO -->
+            <div class="col-sm-offset-0 col-sm-4"
+                 style="background-color: white; padding-bottom: 15px; padding-top: 15px">
+                <div class="container-fluid">
+                    <img class="img-responsive img-thumbnail" src="/static/images/about_breed/1.jpg" width="350"
+                         height="265">
+                </div>
+            </div>
+
+            <!-- BREED PREDISPOSITION -->
+            <div class="col-sm-4" style="background-color: white">
+
+                <h4 class="h4-titles" style="text-align: center">PREDYSPOZYCJE</h4>
+                <br>
+
+                <!-- ADAPTABILITY -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <a type="button" class="info importandLinks" data-toggle="modal" data-target="#adapt">
+                                <p style="padding: 5px"><i class="fa fa-plus-square" style="color: #8e8e8e"></i>
+                                    ZDOLNOŚĆ ADAPTACJI</p>
+                            </a>
+                        </div>
+                        <div class="col-6 text-right" style="font-size: 15px">
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ADAPTABILITY-MODAL -->
+                <div class="modal fade" tabindex="-1" role="dialog"
+                     aria-labelledby="myLargeModalLabel"
+                     aria-hidden="true" id="adapt">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="h4-titles modal-title" id="exampleModalLongTitle">ADAPTACJA</h4>
+                                <div class="col-6 text-right">
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e; font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e; font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e; font-size: 20px;"> </i>
+                                </div>
+                            </div>
+
+                            <!-- DATA -->
+                            <div class="modal-body">
+                                <div style="max-width: 500px">
+                                    <div class="row">
+                                        <div class="col-6 text-left">Odpowiedni dla nowicjuszy</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Toleruje samotność</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Życie w mieszkaniu</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Poziom wrażliwości</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">ZAMKNIJ
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AROUND FRIENDLINESS -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <a type="button" class="info importandLinks" data-toggle="modal" data-target="#friend">
+                                <p style="padding: 5px"><i class="fa fa-plus-square" style="color: #8e8e8e"></i>
+                                    FRIENDLINESS</p>
+                            </a>
+                        </div>
+                        <div class="col-6 text-right" style="font-size: 15px">
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AROUND FRIENDLINESS-MODAL -->
+                <div class="modal fade" tabindex="-1" role="dialog"
+                     aria-labelledby="myLargeModalLabel"
+                     aria-hidden="true" id="friend">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="h4-titles modal-title" id="exampleModalLongTitle">FRIENDLINESS</h4>
+                                <div class="col-6 text-right">
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e; font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e; font-size: 20px;"> </i>
+                                </div>
+                            </div>
+
+                            <!-- DATA -->
+                            <div class="modal-body">
+                                <div style="max-width: 500px">
+                                    <div class="row">
+                                        <div class="col-6 text-left">Affectionate with family</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Kid friendly</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Another friendly</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Friendly toward strangers</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HEALTH AND GROOMING -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <a type="button" class="info importandLinks" data-toggle="modal" data-target="#health">
+                                <p style="padding: 5px"><i class="fa fa-plus-square" style="color: #8e8e8e"></i> HEALTH
+                                    & GROOM</p>
+                            </a>
+                        </div>
+                        <div class="col-6 text-right" style="font-size: 15px">
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HEALTH AND GROOMING-MODAL -->
+                <div class="modal fade" tabindex="-1" role="dialog"
+                     aria-labelledby="myLargeModalLabel"
+                     aria-hidden="true" id="health">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="h4-titles modal-title" id="exampleModalLongTitle">HEALTH & GROOM</h4>
+                                <div class="col-6 text-right">
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e; font-size: 20px;"> </i>
+                                </div>
+                            </div>
+
+                            <!-- DATA -->
+                            <div class="modal-body">
+                                <div style="max-width: 500px">
+                                    <div class="row">
+                                        <div class="col-6 text-left">Amount of shedding</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Easy to groom</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">General Health</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Potential for weight gain</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TRAINABILITY -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <a type="button" class="info importandLinks" data-toggle="modal" data-target="#train">
+                                <p style="padding: 5px"><i class="fa fa-plus-square" style="color: #8e8e8e"></i>
+                                    TRAINABILITY</p>
+                            </a>
+                        </div>
+                        <div class="col-6 text-right" style="font-size: 15px">
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TRAINABILITY-MODAL -->
+                <div class="modal fade" tabindex="-1" role="dialog"
+                     aria-labelledby="myLargeModalLabel"
+                     aria-hidden="true" id="train">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="h4-titles modal-title" id="exampleModalLongTitle">TRAINABILITY</h4>
+                                <div class="col-6 text-right">
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e; font-size: 20px;"> </i>
+                                </div>
+                            </div>
+
+                            <!-- DATA -->
+                            <div class="modal-body">
+                                <div style="max-width: 500px">
+                                    <div class="row">
+                                        <div class="col-6 text-left">Easy to train</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Intelligence</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Tendency to bark</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Wanderlust potential</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PHYSICAL NEEDS -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <a type="button" class="info importandLinks" data-toggle="modal" data-target="#physical">
+                                <p style="padding: 5px"><i class="fa fa-plus-square" style="color: #8e8e8e"></i>
+                                    PHYSICAL NEEDS</p>
+                            </a>
+                        </div>
+                        <div class="col-6 text-right" style="font-size: 15px">
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw"> </i>
+                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PHYSICAL NEEDS-MODAL -->
+                <div class="modal fade" tabindex="-1" role="dialog"
+                     aria-labelledby="myLargeModalLabel"
+                     aria-hidden="true" id="physical">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="h4-titles modal-title" id="exampleModalLongTitle">PHYSICAL NEEDS</h4>
+                                <div class="col-6 text-right">
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 22px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="font-size: 20px"> </i>
+                                    <i class="fa fa-paw" style="color: #8e8e8e; font-size: 20px;"> </i>
+                                </div>
+                            </div>
+
+                            <!-- DATA -->
+                            <div class="modal-body">
+                                <div style="max-width: 500px">
+                                    <div class="row">
+                                        <div class="col-6 text-left">Energy level</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Intensity</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Exercise needs</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 text-left">Potential for playfulness</div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                            <i class="fa fa-paw" style="color: #8e8e8e"> </i>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+            </div>
+        </div>
+        <br>
+
+        <!-- BODY-1A -->
+        <div class="row">
+            <div class="col-12-sm" style="background-color: white">
+                <!-- ORSO -->
+                <div style="text-align: center; padding: 5px">
+                    <h4 class="h4-titles">Cane Corso belongs to the group of working dogs! Learn more about working with these
+                        dogs and meet the unique dog from our Kennel!</h4>
+                    <p><a class="importandLinks" href="en_working_cane_corso" style="color: #0b0c10">SEE MORE!</a></p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- BODY-2 -->
+        <div class="row" style="background-color: white">
+
+            <!-- PHOTO -->
+            <div class="col-sm-offset-0 col-sm-4"
+                 style="background-color: white; padding-bottom: 10px; padding-top: 10px">
+                <div class="container-fluid">
+                    <img class="img-responsive img-thumbnail" src="/static/images/about_breed/4.jpg" width="350"
+                         height="265">
+                </div>
+            </div>
+
+            <!-- IMPORTANT LINKS -->
+            <div class="col-sm-4" style="background-color: white">
+                <h4 class="h4-titles">IMPORTANT LINKS</h4>
+                <br>
+                <div>
+                    <p><a class="importandLinks" href="http://www.fci.be/Nomenclature/Standards/343g02-en.pdf"
+                          target="_blank" style="color: #0b0c10"><i class="fa fa-check"></i> CANE CORSO STANDARD FCI</a>
+                    </p>
+                    <p><a class="importandLinks" href="http://www.fci.be/en/" target="_blank"
+                          style="color: #0b0c10"><i class="fa fa-check"></i> OFFICIAL WEBSITE FCI</a></p>
+                    <p><a class="importandLinks" href="https://english.zkwp.pl/main.english/index.html" target="_blank"
+                          style="color: #0b0c10"><i class="fa fa-check"></i> ZKwP - POLISH KENNEL CLUB</a></p>
+                    <div class="row">
+                        <div class="col-sm-12" style="text-align: center">
+                            <img src="/static/images/about_breed/zkwp-fci-logo.png" height="100" width="200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHOTO -->
+            <div class="col-sm-offset-0 col-sm-4"
+                 style="background-color: white; padding-bottom: 10px; padding-top: 10px">
+                <div class="container-fluid">
+                    <img class="img-responsive img-thumbnail" src="/static/images/about_breed/5.jpg" width="350"
+                         height="265">
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+        <!-- BODY-3 -->
+        <div class="row">
+
+            <!--HISTORY ABOUT BREED-->
+            <div class="col-sm-12" style="background-color: white">
+                <h4 class="h4-titles">HISTORY</h4>
+                <div class="w-auto p-3 text-justify" style="max-width: 1200px; margin-left: 5%; margin-right: 5%">
+                    <p>
+                        According to the breed standard of the Fédération Cynologique Internationale (FCI -
+                        International Canine
+                        Federation), the Cane Corso descends from the molossoid dogs of Ancient Rome; it was once
+                        distributed
+                        throughout much of the Italian peninsula, but in the recent past was found only in Puglia, in
+                        southern
+                        Italy. After the collapse of the mezzadria system of share-cropping in the 1960s, the dogs
+                        became rare. The
+                        modern breed derives from selective breeding from about 1980 of a few surviving animals. A breed
+                        society,
+                        the Società Amatori Cane Corso, was formed in 1983. The breed was recognised by the Ente
+                        Nazionale della
+                        Cinofilia Italiana (ENCI - National Entity of Italian Cynology) in 1994. It was provisionally
+                        accepted by
+                        the Fédération Cynologique Internationale in 1996, and received full acceptance in 2007. It was
+                        recognised
+                        by the American Kennel Club of the United States in 2010.
+                    </p>
+                    <p>
+                        The word "cane" of course, is Latin for dog and derives from the word "canis". The word "corso"
+                        may come
+                        from "cohors", meaning bodyguard, or from "corsus" an old Italian word meaning sturdy or robust.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+        <!-- BODY-4 -->
+        <div class="row">
+
+            <!-- PHOTO -->
+            <div class="col-sm-4" style="background-color: white; padding: 10px">
+                <div class="container-fluid">
+                    <img class="img-responsive img-thumbnail" src="/static/images/about_breed/2.jpg" width="350"
+                         height="265">
+                </div>
+            </div>
+
+            <!-- CONSIDER -->
+            <div class="col-sm-4" style="background-color: white">
+                <h4 class="h4-titles">If you're considering of Cane Corso, you should be concerned about:</h4>
+                <br>
+                <div class="container-fluid">
+
+                    <!-- BALANCE OF EXCERCISE -->
+                    <div class="container-fluid">
+                        <div class="row" style="text-align: left">
+                            <div>
+                                <a type="button" class="info importandLinks" data-toggle="modal" data-target="#balance">
+                                    <p><i class="fa fa-plus-square" style="color: #8e8e8e"></i> 1. BALANCE OF EXCERCISE
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BALANCE OF EXCERCISE-MODAl -->
+                    <div class="modal fade" tabindex="-1" role="dialog"
+                         aria-labelledby="myLargeModalLabel"
+                         aria-hidden="true" id="balance">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="padding: 10px">
+                                <div class="modal-header">
+                                    <h4 class="h4-titles modal-title" id="exampleModalLongTitle">BALANCE OF
+                                        EXCERCISE</h4>
+                                </div>
+
+                                <!-- DATA -->
+                                <div class="modal-body">
+                                    <div style="max-width: 500px">
+                                        <div class="row" style="text-align: justify">
+                                            <p>
+                                                Young Cane Corso need enough exercise to keep them lean and healthy, but
+                                                not so much that their
+                                                soft growing bones, joints, and ligaments become over-stressed and
+                                                damaged. Adult Cane Corso
+                                                need more exercise to keep them in shape, but not in hot or humid
+                                                weather for fear of
+                                                overheating. The proper amount of exercise can be difficult to regulate
+                                                in giant breeds.
+                                            </p>
+                                            <div class="alert alert-warning">
+                                                <p>
+                                                    <strong>BUT REMEMBER!</strong>
+                                                    <br>
+                                                    Since you need to minimize their exercise, young Cane Corso can be
+                                                    very rambunctious. They
+                                                    will romp with uncoordinated gawkiness all over your house. You need
+                                                    to substitute extra
+                                                    quantities of companionship and supervision during this trying time.
+                                                    Otherwise your young
+                                                    mastiff will become bored and destructive and his powerful jaws can
+                                                    literally destroy your
+                                                    living room.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ENOUGH SOCIALIZATION -->
+                    <div class="container-fluid">
+                        <div class="row" style="text-align: left">
+                            <div>
+                                <a type="button" class="info importandLinks" data-toggle="modal" data-target="#socjal">
+                                    <p><i class="fa fa-plus-square" style="color: #8e8e8e"></i> 2. ENOUGH SOCIALIZATION
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ENOUGH SOCIALIZATION-MODAL -->
+                    <div class="modal fade" tabindex="-1" role="dialog"
+                         aria-labelledby="myLargeModalLabel"
+                         aria-hidden="true" id="socjal">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="padding: 10px">
+                                <div class="modal-header">
+                                    <h4 class="h4-titles modal-title" id="exampleModalLongTitle">ENOUGH
+                                        SOCIALIZATION</h4>
+                                </div>
+
+                                <!-- DATA -->
+                                <div class="modal-body">
+                                    <div style="max-width: 500px">
+                                        <div class="row" style="text-align: justify">
+                                            <p>
+                                                Most Cane Corso have protective instincts toward strangers. They need
+                                                extensive exposure to
+                                                friendly people so they learn to recognize the normal behaviors of "good
+                                                guys." Then they can
+                                                recognize the difference when someone acts abnormally. Without careful
+                                                socialization, they may
+                                                be suspicious of everyone. Some Cane Corso go in the opposite direction
+                                                -- without enough
+                                                socialization, they become fearful of strangers, which could possibly
+                                                lead to defensive biting.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- POTENTIAL AGRESSION -->
+                    <div class="container-fluid">
+                        <div class="row" style="text-align: left">
+                            <div>
+                                <a type="button" class="info importandLinks" data-toggle="modal"
+                                   data-target="#agression">
+                                    <p><i class="fa fa-plus-square" style="color: #8e8e8e"></i> 3. POTENTIAL AGRESSION
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- POTENTIAL AGRESSION-MODAL -->
+                    <div class="modal fade" tabindex="-1" role="dialog"
+                         aria-labelledby="myLargeModalLabel"
+                         aria-hidden="true" id="agression">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="padding: 10px">
+                                <div class="modal-header">
+                                    <h4 class="h4-titles modal-title" id="exampleModalLongTitle">POTENTIAL
+                                        AGRESSION</h4>
+                                </div>
+
+                                <!-- DATA -->
+                                <div class="modal-body">
+                                    <div style="max-width: 500px">
+                                        <div class="row" style="text-align: justify">
+                                            <p>
+                                                Many Cane Corso will not tolerate another dog of the same sex, and some
+                                                won't tolerate the
+                                                opposite sex either. Some Cane Corso have strong instincts to chase and
+                                                seize cats and other
+                                                fleeing creatures. If anything goes wrong in the breeding, socializing,
+                                                training, handling, or
+                                                management of this breed, it is capable of seriously injuring or killing
+                                                other animals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- STRONG TEMPERAMENT -->
+                    <div class="container-fluid">
+                        <div class="row" style="text-align: left">
+                            <div>
+                                <a type="button" class="info importandLinks" data-toggle="modal"
+                                   data-target="#temperament">
+                                    <p><i class="fa fa-plus-square" style="color: #8e8e8e"></i> 4. STRONG TEMPERAMENT
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STRONG TEMPERAMENT-MODAL -->
+                    <div class="modal fade" tabindex="-1" role="dialog"
+                         aria-labelledby="myLargeModalLabel"
+                         aria-hidden="true" id="temperament">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="padding: 10px">
+                                <div class="modal-header">
+                                    <h4 class="h4-titles modal-title" id="exampleModalLongTitle">STRONG TEMPERAMET</h4>
+                                </div>
+
+                                <!-- DATA -->
+                                <div class="modal-body">
+                                    <div style="max-width: 500px">
+                                        <div class="row" style="text-align: justify">
+                                            <p>
+                                                Though much more trainable than other mastiff breeds, Cane Corso have an
+                                                independent mind of
+                                                their
+                                                own and are not pushovers to raise and train. Many Cane Corso are
+                                                dominant (they want to be the
+                                                boss) and will make you prove that you can make them do things. You must
+                                                show them, through
+                                                absolute
+                                                consistency, that you mean what you say.
+                                            </p>
+                                            <div class="alert alert-warning">
+                                                <p>
+                                                    <strong>BUT REMEMBER!</strong>
+                                                    <br>
+                                                    To teach your Cane Corso to listen to you, "Respect Training" is
+                                                    mandatory. My Cane Corso
+                                                    Training article discusses the program you need. Obedience training
+                                                    is essential! It will
+                                                    teach
+                                                    you to understand each other and respect the dog's needs
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- SALIVA -->
+                    <div class="container-fluid">
+                        <div class="row" style="text-align: left">
+                            <div>
+                                <a type="button" class="info importandLinks" data-toggle="modal"
+                                   data-target="#saliva">
+                                    <p><i class="fa fa-plus-square" style="color: #8e8e8e"></i> 5. DISGUSTED WITH
+                                        SALIVA!
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SALIVA-MODAL -->
+                    <div class="modal fade" tabindex="-1" role="dialog"
+                         aria-labelledby="myLargeModalLabel"
+                         aria-hidden="true" id="saliva">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="padding: 10px">
+                                <div class="modal-header">
+                                    <h4 class="h4-titles modal-title" id="exampleModalLongTitle">DISGUSTED WITH
+                                        SALIVA!</h4>
+                                </div>
+
+                                <!-- DATA -->
+                                <div class="modal-body">
+                                    <div style="max-width: 500px">
+                                        <div class="row" style="text-align: justify">
+                                            <p>
+                                                Cane Corso with heavy jowls drool and slobber. Of course, somewhere are
+                                                dogs, that don't drool at all. But to find such a dog is like winning
+                                                the lottery.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- DISEASES -->
+                    <div class="container-fluid">
+                        <div class="row" style="text-align: left">
+                            <div>
+                                <a type="button" class="info importandLinks" data-toggle="modal"
+                                   data-target="#diseases">
+                                    <p><i class="fa fa-plus-square" style="color: #8e8e8e"></i> 6. DIFFERENT DISEASES
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DISEASES-MODAL -->
+                    <div class="modal fade" tabindex="-1" role="dialog"
+                         aria-labelledby="myLargeModalLabel"
+                         aria-hidden="true" id="diseases">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="padding: 10px">
+                                <div class="modal-header">
+                                    <h4 class="h4-titles modal-title" id="exampleModalLongTitle">DIFFERENT
+                                        DISEASES</h4>
+                                </div>
+
+                                <!-- DATA -->
+                                <div class="modal-body">
+                                    <div style="max-width: 500px">
+                                        <div class="row" style="text-align: justify">
+                                            <p>
+                                                It is normal for any animal to become ill. However, in the cane corso,
+                                                the most distinctive medical conditions are:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <strong>Orthopedic diseases are rampant in the Cane Corso:</strong>
+                                                    <p>
+                                                        With 1300 hip X-rays evaluated by the Orthopedic Foundation of
+                                                        America, the Cane Corso has a 39% of hip dysplasia – the 13th
+                                                        worst rate of all breeds. And the true rateis even higher
+                                                        because most of the obviously bad X-rays were not sent in for
+                                                        official evaluation. Confirming this, the Cane Corso Coalition
+                                                        conducted a health survey that reported a horrible 58% hip
+                                                        dysplasia rate. Elbow dysplasia is also a major problem, with
+                                                        the OFA reporting a rate of 16% and the coalition survey
+                                                        reporting at least 22%. Other orthopedic health problems in the
+                                                        Cane Corso include panosteitis, osteochondritis, luxating
+                                                        patella, cruciate ligament rupture, and Wobbler's syndrome.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <strong>Heart disease</strong> (especially cardiomyopathy and mitral
+                                                    valve disease) is a serious concern in Cane Corso. 18% of the Cane
+                                                    Corso in the Coalition survey had a heart disorder.
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <strong>Epilepsy</strong> is another serious concern, with 16% of
+                                                    the Corso in the coalition survey affected by a seizure disorder.
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    With their deep chest, Cane Corso are at higher-than-normal risk for
+                                                    the <strong>emergency gastrointestinal</strong> syndrome called
+                                                    bloat.
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <strong>Cancer</strong> claims the lives of many giant breeds,
+                                                    including Cane Corso.
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    About one in every three Cane Corso is affected by at least one
+                                                    <strong>eye disease</strong>. Most common are cherry eye, eyelid
+                                                    abnormalities (entropion and ectropion), and dry eye.
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <strong>Skin diseases</strong> are common, especially allergies
+                                                    (often leading to pyoderma), which affects one in every four
+                                                    Cane Corso. Demodectic mange is very common in all mastiff breeds –
+                                                    37% of the Cane Corso in the coalition survey were affected by
+                                                    demodex mites. Demodectic mange usually affects Cane Corso puppies
+                                                    and adolescents. Other health issues involving the skin are skin
+                                                    fold dermatitis, deep pyoderma, elbow hygroma, and chin
+                                                    folliculitis.
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <strong>Hypothyroidism</strong> is common in all giant breeds, with
+                                                    up to 20% of Cane Corso affected. Colitis and blood-clotting disease
+                                                    (von Willebrand's) have been reported in Cane Corso.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- MOST IMPORTANT -->
+                    <div class="container-fluid">
+                        <div class="row" style="text-align: left">
+                            <div>
+                                <a type="button" class="info importandLinks" data-toggle="modal"
+                                   data-target="#important">
+                                    <p><i class="fa fa-plus-square" style="color: #8e8e8e"></i> 7. BUT MOST IMPORTANT!
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MOST IMPORTANT-MODAL -->
+                    <div class="modal fade" tabindex="-1" role="dialog"
+                         aria-labelledby="myLargeModalLabel"
+                         aria-hidden="true" id="important">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="padding: 10px">
+                                <div class="modal-header">
+                                    <h4 class="h4-titles modal-title" id="exampleModalLongTitle">BUT MOST
+                                        IMPORTANT!</h4>
+                                </div>
+
+                                <!-- DATA -->
+                                <div class="modal-body">
+                                    <div style="max-width: 500px">
+                                        <div class="row" style="text-align: justify">
+                                            <p>
+                                                Cane Corso may be targeted for "banning" in certain areas, or refusal of
+                                                homeowner insurance policies. Your friends and neighbors may be
+                                                uncomfortable around this breed. In this day and age, the legal
+                                                liabilities of owning any breed that looks intimidating and has a
+                                                history as a guard dog should be seriously considered. People are
+                                                quicker to sue if such a dog does anything even remotely questionable.
+                                            </p>
+                                            <div class="alert alert-warning">
+                                                <p>
+                                                    <strong>BUT REMEMBER!</strong>
+                                                    <br>
+                                                    Frankly, most Cane Corso are "too much dog" for the average
+                                                    household. Very few people really have the ability to manage this
+                                                    breed.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- PHOTO -->
+            <div class="col-sm-4" style="background-color: white; padding: 10px">
+                <div class="container-fluid">
+                    <img class="img-responsive img-thumbnail" src="/static/images/about_breed/3.jpg" width="350"
+                         height="265">
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+        <!-- BODY-5 -->
+        <div class="row">
+
+            <!-- REFERENCES -->
+            <div class="col-sm-12" style="background-color: white">
+                <div class="references" style="text-align: left">
+                    <h6 class="h6-titles">REFERENCES</h6>
+                    <p>● FCI breeds nomenclature: Cane Corso Italiano (343). Fédération Cynologique Internationale.
+                        Accessed July
+                        2020</p>
+                    <p>● Breed Standards: Cane Corso Italiano - United Kennel Club (UKC) Retrieved 4 February
+                        2019</p>
+                    <p>● "Get to Know the Cane Corso" The American Kennel Club. Accessed July 2020</p>
+                    <p>● www.dogtime.com</p>
+                    <p>●www.yourpurebredpuppy.com</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <br>
+        <h1 class="h1-titles"><br></h1>
+        <br>
+        <br>
+    </footer>
 
 {% endblock %}
