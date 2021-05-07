@@ -193,9 +193,9 @@ def pl_litter_j():
     return render_template("pl_litter_j.html")
 
 
-@app.route("/en_litter_e")
-def en_litter_e():
-    return render_template("en_litter_e.html")
+@app.route("/pl_litter_e")
+def pl_litter_e():
+    return render_template("pl_litter_e.html")
 
 
 # ADDITIONAL
