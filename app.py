@@ -97,6 +97,7 @@ def pl_about_us():
 def pl_about_breed():
     return render_template("pl_about_breed.html")
 
+
 # EN LITTERS
 
 
@@ -147,11 +148,67 @@ def en_jaga():
     return render_template("en_jaga.html")
 
 
+# PL BREEDING BITCHES
+
+@app.route("/pl_salma")
+def pl_salma():
+    return render_template("pl_salma.html")
+
+
+@app.route("/pl_zoja")
+def pl_zoja():
+    return render_template("pl_zoja.html")
+
+
+@app.route("/pl_jaga")
+def pl_jaga():
+    return render_template("pl_jaga.html")
+
+
+# PL LITTERS
+
+
+@app.route("/pl_litter_b")
+def pl_litter_b():
+    return render_template("pl_litter_b.html")
+
+
+@app.route("/pl_litter_a")
+def pl_litter_a():
+    return render_template("pl_litter_a.html")
+
+
+@app.route("/pl_litter_m")
+def pl_litter_m():
+    return render_template("pl_litter_m.html")
+
+
+@app.route("/pl_litter_n")
+def pl_litter_n():
+    return render_template("pl_litter_n.html")
+
+
+@app.route("/pl_litter_j")
+def pl_litter_j():
+    return render_template("pl_litter_j.html")
+
+
+@app.route("/en_litter_e")
+def en_litter_e():
+    return render_template("en_litter_e.html")
+
+
 # ADDITIONAL
+
 
 @app.route("/en_working_cane_corso")
 def en_working_cane_corso():
     return render_template("en_working_cane_corso.html")
+
+
+@app.route("/pl_working_cane_corso")
+def pl_working_cane_corso():
+    return render_template("pl_working_cane_corso.html")
 
 
 if __name__ == "__main__":
